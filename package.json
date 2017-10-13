@@ -1,0 +1,29 @@
+{
+  "name": "apollo-graphql-exploration",
+  "version": "0.0.1",
+  "description": "basic apollo server setup",
+  "main": "server.js",
+  "scripts": {
+    "start": "babel-node --presets es2015 server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CTownsdin/apollo-graphql-exploration.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CTownsdin/apollo-graphql-exploration/issues"
+  },
+  "homepage": "https://github.com/CTownsdin/apollo-graphql-exploration#readme",
+  "dependencies": {
+    "apollo-server-express": "^1.1.6",
+    "express": "^4.16.2",
+    "graphql": "^0.11.7"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
